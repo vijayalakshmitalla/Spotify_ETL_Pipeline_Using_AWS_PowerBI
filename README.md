@@ -13,11 +13,11 @@ The project architecture involves the following components:
 
 1.  **Spotify Web API**: Used to extract raw playlist, track, album, and artist data.
 2.  **AWS S3**: Acts as a data lake for storing raw and transformed data.
-    * `spotify-etl-project-vijju`: Main bucket (as seen in `image_67e01c.png`)
-    * `raw_data/`: Stores unprocessed JSON data directly from Spotify (as seen in `image_67dd73.png`)
+    * `spotify-etl-project-vijju`: Main bucket 
+    * `raw_data/`: Stores unprocessed JSON data directly from Spotify
         * `processed/`
         * `to_processed/`
-    * `transformed_data/`: Stores structured and processed data in Parquet or CSV format (as seen in `image_67dd4f.png`)
+    * `transformed_data/`: Stores structured and processed data in Parquet or CSV format.
         * `album_data/`
         * `artist_data/`
         * `songs_data/`
@@ -102,7 +102,7 @@ The project architecture involves the following components:
 4.  **File Format**:
     * Define a file format for CSV data, e.g., `CREATE OR REPLACE FILE FORMAT csv_file_format`.
 5.  **Tables**:
-    * Create the following tables to store your transformed data (refer to `image_67dcb3.png`):
+    * Create the following tables to store your transformed data:
         * `TBLALBUM`
         * `TBLARTIST`
         * `TBLSONGS`
