@@ -159,9 +159,9 @@ The Power BI dashboard provides an interactive view of the Spotify data. Key vis
 ## Future Enhancements
 
 * **Error Handling and Logging**: Implement more robust error handling and detailed logging for both Lambda functions.
-* **Data Validation**: Add data validation steps to ensure data quality throughout the pipeline.
+* **Data Validation**: Add data validation steps to ensure the data quality throughout the pipeline.
 * **Scalability**: Optimize Lambda functions for larger datasets and consider AWS Step Functions for workflow orchestration between the extraction and transformation steps.
-* **Advanced Analytics**: Explore more sophisticated analytics in Snowflake, such as clustering or trend analysis.
+* **Advanced Analytics**: Explore more sophisticated analytics in Snowflake,such as clustering or trend analysis.
 * **More Data Sources**: Integrate data from other Spotify API endpoints.
 * **Dashboard Enhancements**: Add more visualizations and filters to the Power BI dashboard for deeper insights.
 
